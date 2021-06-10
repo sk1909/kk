@@ -1,0 +1,201 @@
+\documentclass[a4paper,10pt]{article}
+%-----------------------------------------------------------
+\usepackage[top=0.75in, bottom=0.75in, left=0.55in, right=0.85in]{geometry}
+\usepackage{graphicx}
+\usepackage{url}
+\usepackage{palatino}
+\usepackage{tabularx}
+\fontfamily{SansSerif}
+\selectfont
+
+\usepackage[T1]{fontenc}
+\usepackage
+%[ansinew]
+[utf8]
+{inputenc}
+
+\usepackage{color}
+\definecolor{mygrey}{gray}{0.75}
+\textheight=9.75in
+\raggedbottom
+
+\setlength{\tabcolsep}{0in}
+\newcommand{\isep}{-2 pt}
+\newcommand{\lsep}{-0.5cm}
+\newcommand{\psep}{-0.6cm}
+\renewcommand{\labelitemii}{$\circ$}
+
+\pagestyle{empty}
+%-----------------------------------------------------------
+%Custom commands
+\newcommand{\resitem}[1]{\item #1 \vspace{-2pt}}
+\newcommand{\resheading}[1]{{\small \colorbox{mygrey}{\begin{minipage}{0.975\textwidth}{\textbf{#1 \vphantom{p\^{E}}}}\end{minipage}}}}
+\newcommand{\ressubheading}[3]{
+\begin{tabular*}{6.62in}{l @{\extracolsep{\fill}} r}
+	\textsc{{\textbf{#1}}} & \textsc{\textit{[#2]}} \\
+\end{tabular*}\vspace{-8pt}}
+%-----------------------------------------------------------
+
+\begin{document}
+\hspace{0.5cm}\\[-0.2cm]
+
+\textbf{Sushmita Kandari} \\
+\indent Email-id : \textbf{\url{sweetikandari@gmail.com}} \\
+\indent Mobile No.: \textbf{8954913796}, \ \\
+\indent \textbf{\url{https://github.com/sk1909}}\\
+
+\resheading{\textbf{ACADEMIC DETAILS} }\\[\lsep]
+\\
+%\begin{table}[ht!]
+%\begin{center}
+\indent \rule{6.8in}{0.4pt}\\
+\indent \begin{tabular}{ l @{\hskip 0.15in} l @{\hskip 0.15in} l @{\hskip 0.15in} l @{\hskip 0.15in} }
+\noindent \textbf{Year} & \textbf{Degree/Exam} & \textbf{Institute} & \textbf{GPA/Marks(\%)}\\
+Aug, 2018 - Present & B.TECH in Computer Science & Graphic Era Hill University Dehradun & 9.63/10.0 \ \\
+2018 & ISC & St. Joseph's Convent School Kotdwara & 75.6 \% \\
+2016 & ICSE & St. Joseph's Convent School Kotdwara & 86.83 \%\\
+
+\end{tabular}
+
+\indent \rule{6.8in}{0.4pt}
+%\end{center}
+%\end{table}
+\\
+
+\resheading{\textbf{INTERNSHIPS} }\\[\lsep]
+\begin{itemize}
+\setlength\itemsep{0.5em}
+\item \textbf{Online O.P.D. Patient Management System, Significant Software Solutions (Jun, 2013 - July, 2013) : }To develop
+a web portal for doctors to save their patients' details. If a patient go to different doctor he/she can see the
+previous treatment(s) given to the patient.
+The web portal was developed and uploaded to a server, and having URL \url{http://www.visualpatients.com}
+\end{itemize}
+
+\resheading{\textbf{PROJECTS} }\\[\lsep]
+\begin{itemize}
+\setlength\itemsep{0.5em}
+\item \textbf{Android-PC chatting and Image Sharing System} (Apr, 2021 - May, 2021) : Developed a chatting app using React Js in which the user can chat and share images between android and PC.
+\item \textbf{Edge Preservation Based Medical Image(CT Image)Denoising.} (Oct, 2020 - Nov, 2020) : Developed a SVM classifier for recognizing if an email is spam or not.
+handwritten digits which was trained and tested using MNIST dataset giving 98\% accuracy.
+\end{itemize}
+
+\resheading{\textbf{TECHNICAL SKILLS} }\\[\lsep]
+\begin{itemize}
+\setlength\itemsep{0em}
+\item \noindent \textbf{Languages} \textbf{Python} (proficient), \textbf{Javascript} (proficient), \textbf{C} (proficient), \textbf{C++} (proficient), \textbf{SML}, \textbf{Prolog}, \textbf{HTML}, \textbf{SQL}, \textbf{PHP}, \textbf{Java}.\\
+ \item \noindent\textbf{Tools and Frameworks} MATLAB, ReactJS, Meteor, OpenGL, \LaTeX\\
+\item \noindent \textbf{Machine Learning Tools} Tensorflow, Keras, scikit-learn.
+\end{itemize}
+
+\resheading{\textbf{SCHOLASTIC ACHIEVEMENTS} }\\[\lsep]
+\begin{itemize}
+\setlength\itemsep{0em}
+\item \noindent \textbf{GATE(CSE) - }Scored AIR 70 out of 155190 in 2014
+\item \noindent\textbf{Brain Buster - }Secured I st rank in overnight coding competition in II nd year B.TECH and received a cash price of INR
+3000.
+\end{itemize}
+
+\resheading{\textbf{POSITIONS OF RESPONSIBILITY} }\\[\lsep]
+\begin{itemize}
+\setlength\itemsep{0em}
+\item \noindent \textbf{Sports Captain, ST. Joseph's Convent School} Shouldered the responsibilty of sports captain at the school level and represented the school in sporting events in 15th inter school sports meet. 
+
+\item \noindent \textbf{Oraganising Member of ${7^{th}}$ UCOST Congress-2013} (Nov, 2013) : Participated as an active member of Reception and Welcome Committee of ${7^{th}}$ Uttarakhand Council of Scince and Technology congress.
+\end{itemize}
+\end{document}
+
+
+
+Create a Struts based basic application similar to the application covered in this lecture. This is also an assignment for this lecture.
+
+Files:
+1- web.xml
+2- struts.xml
+3- SumAction.java
+4- Input.jsp
+5- Result.jsp
+
+
+
+
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.6.0/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/8.6.0/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  var firebaseConfig = {
+    apiKey: "AIzaSyCedH67BDPeCJse4oMK-9bdD6M12Qka3yE",
+    authDomain: "chatproject-9f3dd.firebaseapp.com",
+    projectId: "chatproject-9f3dd",
+    storageBucket: "chatproject-9f3dd.appspot.com",
+    messagingSenderId: "104320955267",
+    appId: "1:104320955267:web:4408a4a685d86de46efcb6",
+    measurementId: "G-08S1GVQ428"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+
+
+
+
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.4.3/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyApjJ-ByL7UDfK8ZYQbuuabvZ1QzGqbnHc",
+    authDomain: "chat-42ca6.firebaseapp.com",
+    projectId: "chat-42ca6",
+    storageBucket: "chat-42ca6.appspot.com",
+    messagingSenderId: "160040408179",
+    appId: "1:160040408179:web:94d1e8f7dd53af6ba6c606"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+
+
+
+
+
+
+
+
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.4.3/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/8.4.3/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  var firebaseConfig = {
+    apiKey: "AIzaSyBHDgbbf15XZqwt_Aiauiq3aeW2LVfFn44",
+    authDomain: "whatsapp-fb1f1.firebaseapp.com",
+    databaseURL: "https://whatsapp-fb1f1-default-rtdb.firebaseio.com",
+    projectId: "whatsapp-fb1f1",
+    storageBucket: "whatsapp-fb1f1.appspot.com",
+    messagingSenderId: "826966850172",
+    appId: "1:826966850172:web:394a2fab65bd2fab9de7f9",
+    measurementId: "G-641LD4C1TZ"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
